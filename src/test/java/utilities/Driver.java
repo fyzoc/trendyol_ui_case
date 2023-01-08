@@ -44,16 +44,5 @@ public class Driver {
             driver = null;
         }
     }
-    public static WebElement waitForVisibility(WebElement element, int timeToWaitInSec) {
-        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(timeout));
-        return wait.until(ExpectedConditions.visibilityOf(element));
-    }
-    public static WebElement waitForVisibility(By locator, int timeout) {
-        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(timeout));
-        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-    }
-    public static void clickWithJS(WebElement element) {
-        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", element);
-        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].click();", element);
-    }
+
 }

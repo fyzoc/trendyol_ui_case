@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sample_framework" />
+        <module name="trendyol_testcase" />
+        <module name="trendyol_case" />
       </profile>
     </annotationProcessing>
   </component>
