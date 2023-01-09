@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="194.502">
+    <testcase classname="TestPage" name="Test_the_page" time="193.741">
+        <system-out>
+            <![CDATA[Given user is on homePage...................................................passed
+Then user verifies that home page is visible successfully...................passed
+When user close advertisement alert.........................................passed
+And user get list of all boutique name in a list............................passed
+And report duration when scrolled through the images........................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
+rName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:61622}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61622/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: aa62a4e3b9a5744898c4e8bfce01a242" type="org.openqa.selenium.WebDriverException">
+            <![CDATA[Given user is on homePage Url with Chrome...................................failed
+Then user verifies that home page is visible successfully...................skipped
+When user close advertisement alert.........................................skipped
+Given user click on login button............................................skipped
+And user enters "email".....................................................skipped
+And user enters "password"..................................................skipped
+When user click on submit button............................................skipped
+Then user verifies that on the sign in page is visible successfully.........skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LAPTOP-04TQQJUH', ip: '172.22.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aa62a4e3b9a5744898c4e8bfce01a242, get {url=https://www.trendyol.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:61622}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61622/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aa62a4e3b9a5744898c4e8bfce01a242
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepdefinitions.GridStepDefs.userIsOnHomePageUrlWithChrome(GridStepDefs.java:20)
+	at ✽.user is on homePage Url with Chrome(file:///C:/Users/HP/IdeaProjects/trendyol_case/./src/test/resources/features/grid.feature:5)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="grid_feature" name="TC02_running_on_firefox" time="29.827">
+        <failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=108.0.5359.125)&#10;Build info: version: '4.1.4', revision: '535d840ee2'&#10;System info: host: 'LAPTOP-04TQQJUH', ip: '172.22.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [52284044944d9d0687fddb32516d0c92, get {url=https://www.trendyol.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55427/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 52284044944d9d0687fddb32516d0c92" type="org.openqa.selenium.WebDriverException">
+            <![CDATA[Given user is on homePage Url with Firefox..................................failed
+Then user verifies that home page is visible successfully...................skipped
+When user close advertisement alert.........................................skipped
+Given user click on login button............................................skipped
+And user enters "email".....................................................skipped
+And user enters "password"..................................................skipped
+When user click on submit button............................................skipped
+Then user verifies that on the sign in page is visible successfully.........skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LAPTOP-04TQQJUH', ip: '172.22.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [52284044944d9d0687fddb32516d0c92, get {url=https://www.trendyol.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55427/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 52284044944d9d0687fddb32516d0c92
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepdefinitions.GridStepDefs.userIsOnHomePageUrlWithFirefox(GridStepDefs.java:25)
+	at ✽.user is on homePage Url with Firefox(file:///C:/Users/HP/IdeaProjects/trendyol_case/./src/test/resources/features/grid.feature:15)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
