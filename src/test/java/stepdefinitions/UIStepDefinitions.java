@@ -154,6 +154,12 @@ public class UIStepDefinitions {
 
     @When("user click on submit button")
     public void userClickOnSubmitButton() {
+
         homePage.submit.click();
+    }
+
+    @And("test case fails")
+    public void testCaseFails() {
+        Assert.assertTrue(false);
     }
 }
