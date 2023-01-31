@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="195.554">
-    <testcase classname="TestPage" name="Login_Process" time="17.24">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="244.607">
+    <testcase classname="TestPage" name="Login_Process" time="14.003">
         <system-out>
             <![CDATA[Given user is on homePage...................................................passed
 Then user verifies that home page is visible successfully...................passed
@@ -13,7 +13,7 @@ Then user verifies that on the sign in page is visible successfully.........pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TestPage" name="Get_the_list" time="171.625">
+    <testcase classname="TestPage" name="Get_The_List" time="223.539">
         <system-out>
             <![CDATA[Given user is on homePage...................................................passed
 Then user verifies that home page is visible successfully...................passed
@@ -23,7 +23,7 @@ And report duration when scrolled through the images........................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TestPage" name="Failed_login" time="6.43">
+    <testcase classname="TestPage" name="Failed_Login" time="6.814">
         <failure message="" type="java.lang.AssertionError">
             <![CDATA[Given user is on homePage...................................................passed
 Then user verifies that home page is visible successfully...................passed

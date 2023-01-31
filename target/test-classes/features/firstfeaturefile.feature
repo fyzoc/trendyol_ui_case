@@ -1,4 +1,4 @@
-@all
+@all_test
 Feature: TestPage
 Background:
   Given user is on homePage
@@ -12,11 +12,11 @@ Background:
     When user click on submit button
     Then user verifies that on the sign in page is visible successfully
   @Test01
-  Scenario: Get_the_list
+  Scenario: Get_The_List
     And user get list of all boutique name in a list
     And report duration when scrolled through the images
   @Test03
-  Scenario: Failed_login
+  Scenario: Failed_Login
     Given user click on login button
     And user enters "email"
     And user enters "password"

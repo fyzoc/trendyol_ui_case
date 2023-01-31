@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Test Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jan 10, 2023 10:20:15 AM</span></a>
+<a href="#"><span class="badge badge-primary">Jan 25, 2023 02:49:43 PM</span></a>
 </li>
 </ul>
 </div>
@@ -71,13 +71,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jan 10, 2023 10:20:15 AM</h3>
+<h3>Jan 25, 2023 02:49:43 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jan 10, 2023 10:23:31 AM</h3>
+<h3>Jan 25, 2023 02:53:48 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -167,7 +167,7 @@
 </div></div>
 <script>
 var timeline = {
-"TestPage":195.274
+"TestPage":244.223
 };
 </script>
 <div class="row">
@@ -177,20 +177,20 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@all</td>
-<td>2</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>66.667%</td>
-</tr>
-<tr>
 <td>@Test03</td>
 <td>0</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
 <td>0%</td>
+</tr>
+<tr>
+<td>@Test02</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
 </tr>
 <tr>
 <td>@Test01</td>
@@ -201,12 +201,12 @@ var timeline = {
 <td>100%</td>
 </tr>
 <tr>
-<td>@Test02</td>
+<td>@all_test</td>
+<td>2</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>66.667%</td>
 </tr>
 </tbody>
 </table></div>
@@ -253,7 +253,7 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@all</a><a class="dropdown-item" href="#">@Test03</a><a class="dropdown-item" href="#">@Test01</a><a class="dropdown-item" href="#">@Test02</a>
+<a class="dropdown-item" href="#">@Test03</a><a class="dropdown-item" href="#">@Test02</a><a class="dropdown-item" href="#">@Test01</a><a class="dropdown-item" href="#">@all_test</a>
 </ul>
 </li>
 </ul>
@@ -266,7 +266,7 @@ eventsCount: 5,
           <div class="test-detail">
             <p class="name">TestPage</p>
             <p class="text-sm">
-              <span>10:20:16 AM</span> / <span>00:03:15:274</span>
+              <span>2:49:44 PM</span> / <span>00:04:04:223</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -275,9 +275,9 @@ eventsCount: 5,
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">TestPage</h5>
-<span class='badge badge-success'>01.10.2023 10:20:16 AM</span>
-<span class='badge badge-danger'>01.10.2023 10:23:31 AM</span>
-<span class='badge badge-default'>00:03:15:274</span>
+<span class='badge badge-success'>01.25.2023 2:49:44 PM</span>
+<span class='badge badge-danger'>01.25.2023 2:53:48 PM</span>
+<span class='badge badge-default'>00:04:04:223</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -340,7 +340,7 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="12"><span class="badge log pass-bg mr-2">Pass</span>Get_the_list</div>
+        <div class="node" id="12"><span class="badge log pass-bg mr-2">Pass</span>Get_The_List</div>
       </div>
     </div>
         <div class="collapse">
@@ -376,7 +376,7 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="19"><span class="badge log fail-bg mr-2">Fail</span>Failed_login</div>
+        <div class="node" id="19"><span class="badge log fail-bg mr-2">Fail</span>Failed_Login</div>
           <div class="status-avatar float-right mr-4">
             <i class="fa fa-paperclip"></i>
           </div>
@@ -469,64 +469,6 @@ eventsCount: 5,
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>2</span>
-<span class='badge log badge-danger'>1</span>
-</span>
-<p class="name">@all</p>
-<p class="duration text-sm">3 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@all</h4>
-<span status="pass" class='badge log pass-bg'>2 passed</span>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:20:16 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='2'>Login_Process</a>
-<div class="">
-<span class="badge badge-default">TestPage.Login_Process</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:20:33 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='12'>Get_the_list</a>
-<div class="">
-<span class="badge badge-default">TestPage.Get_the_list</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>10:23:24 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='19'>Failed_login</a>
-<div class="">
-<span class="badge badge-default">TestPage.Failed_login</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
 <p class="name">@Test03</p>
@@ -548,47 +490,11 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>10:23:24 AM</td>
+<td>14:53:41 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='19'>Failed_login</a>
+<a href="#" class="linked" test-id='1' id='19'>Failed_Login</a>
 <div class="">
-<span class="badge badge-default">TestPage.Failed_login</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>1</span>
-</span>
-<p class="name">@Test01</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@Test01</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:20:33 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='12'>Get_the_list</a>
-<div class="">
-<span class="badge badge-default">TestPage.Get_the_list</span>
+<span class="badge badge-default">TestPage.Failed_Login</span>
 </div>
 </td>
 </tr>
@@ -620,11 +526,105 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>10:20:16 AM</td>
+<td>14:49:44 PM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='2'>Login_Process</a>
 <div class="">
 <span class="badge badge-default">TestPage.Login_Process</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Test01</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Test01</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:49:58 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='12'>Get_The_List</a>
+<div class="">
+<span class="badge badge-default">TestPage.Get_The_List</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@all_test</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@all_test</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:49:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Login_Process</a>
+<div class="">
+<span class="badge badge-default">TestPage.Login_Process</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:49:58 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='12'>Get_The_List</a>
+<div class="">
+<span class="badge badge-default">TestPage.Get_The_List</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:53:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='19'>Failed_Login</a>
+<div class="">
+<span class="badge badge-default">TestPage.Failed_Login</span>
 </div>
 </td>
 </tr>
@@ -672,11 +672,11 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>10:23:30 AM</td>
+<td>14:53:47 PM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='27'>And test case fails</a>
 <div class="">
-<span class="badge badge-default">TestPage.Failed_login.And test case fails</span>
+<span class="badge badge-default">TestPage.Failed_Login.And test case fails</span>
 </div>
 </td>
 </tr>
